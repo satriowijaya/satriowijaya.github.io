@@ -1,0 +1,53 @@
+.slider h2,
+.slider h4,
+.clients h3,
+.portfolio h3 {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+
+.sidenav p {
+    font-size: 0.9em;
+}
+
+.sidenav img {
+    width: 100%;
+    height: 170px;
+}
+
+marquee {
+    width: 100%;
+    height: 60px;
+}
+
+.about {
+    margin-top: -5px;
+}
+
+.parallax-container {
+    height: 20%;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.clients img {
+    max-width: 100px;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+.portfolio img {
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+section, footer {
+    padding: 20px 0;
+}
+
+.sosmed img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
