@@ -68,9 +68,10 @@ body {
 .btn.btn-tombol {
   font-family: Roboto;
   font-size: 14px;
+  size: 50px;
   background-color: #FFC60B;
   color: #212121;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 .tombol .email {
@@ -78,7 +79,18 @@ body {
 }
 
 .btn.btn-tombol:hover {
+  background-color: rgba(255, 198, 11, 0.815);
+}
+
+.cv {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #bfbfbf;
+}
+
+.cv:hover {
   color: white;
+  text-decoration: none;
 }
     
 .jumbotron .foto {
@@ -91,8 +103,12 @@ body {
   font-size: 28px;
 }
 
+.sosmed {
+  margin-top: 5px;
+}
+
 .jumbotron .sosmed:hover {
-  color: #FFC60B;
+  color: white;
 }
 
 .jumbotron .akun {
@@ -255,7 +271,7 @@ body {
   text-align: center;
   color: #bfbfbf;
   margin-top: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .overlay {
@@ -327,44 +343,6 @@ body {
   }
 }
 
-/* Bisnis */
-.bisnis-menu h1 {
-  font-family: Kanit;
-  color: #bfbfbf;
-  font-size: 22px;
-  font-weight: 600;
-  margin-top: 50px;
-  text-align: center;
-}
-
-.bisnis-item {
-  margin-top: 15px;
-  margin-bottom: 100px;
-}
-
-.bisnis-item li {
-  float: left;
-}
-
-.bisnis-item .rioshop {
-  margin-left: -40px;
-  margin-right: 45px;
-}
-
-.bisnis-item .rioprint {
-  margin-right: 45px;
-}
-
-.bisnis-item li img {
-  filter: drop-shadow(.5px .5px .5px rgba(255, 255, 255, 0.5));
-  width: 90px;
-  height: 90px;
-}
-
-.clear {
-  clear: both;
-}
-
 /* Kontak */
 .kontak {
   background-color: #181818;
@@ -421,12 +399,11 @@ body {
 
 .fas:hover, 
 .fab:hover {
-  color: #FFC60B;
+  color: white;
 } 
 
 .kontak .logo img {
-  border: 1px solid #bfbfbf;
-  width: 25%;
+  width: 18%;
   margin-top: -430px;
 }
 
@@ -454,7 +431,7 @@ body {
     color: #FFC60B;
     font-size: 30px;
     margin-top: 100px;
-    line-height: 60px;
+    line-height: 70px;
   }
      
   .jumbotron h3 {
@@ -468,6 +445,14 @@ body {
     color: #bfbfbf;
     font-size: 28px;
     margin-right: 40px;
+  }
+
+  .btn.btn-tombol {
+    margin-right: 40px;
+  }
+
+  .jumbotron .foto {
+    margin-top: 80px;
   }
 
   /* Blog */
@@ -633,14 +618,13 @@ body {
     left: 50%;
   }
 
-  /* Kenapa */
-  .kenapa-menu h1 {
-    font-size: 46px;
-  }
-
   /* Setifikat */
   .sertifikat-menu h1 {
     font-size: 46px;
+  }
+
+  .sertifikat-item img {
+    margin-bottom:100px;
   }
 
   .sertifikat-item span {
@@ -732,31 +716,6 @@ body {
     }
   }
 
-  /* Bisnis */
-  .bisnis-menu h1 {
-    font-size: 28px;
-    margin-top: 150px;
-  }
-
-  .bisnis-item {
-    margin-top: 20px;
-    margin-bottom: 80px;
-  }
-
-  .bisnis-item .rioshop {
-    margin-left: -40px;
-    margin-right: 100px;
-  }
-  
-  .bisnis-item .rioprint {
-    margin-right: 100px;
-  }
-  
-  .bisnis-item li img {
-    width: 100px;
-    height: 100px;
-  }
-  
   /* Kontak */
   .kontak-item h1 {
     font-family: Kanit;
@@ -789,13 +748,13 @@ body {
   }
 
   .kontak .logo img {
-    margin-top: -80px;
+    margin-top: 10px;
     width: 100%;
   }
 
   /* Footer */
   .footer {
-    font-size: 14px;
+    font-size: 12px;
     text-align: left;
   }
 }
